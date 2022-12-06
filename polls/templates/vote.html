@@ -1,0 +1,10 @@
+{% extends 'template.html' %}
+{% block content %}
+<h3>Polls App Vote Page</h3>
+<div class="card text-center">
+    <div class="card-body">
+        <h5 class="card-title">You're voting on question #{{ question.id }}: {{ question.question_text }}</h5>
+        <a href="/" class="btn btn-primary">Test Button</a>
+    </div>
+</div>
+{% endblock %}
